@@ -24,6 +24,7 @@ function mapToDouble(array){
 function mapToSquare(array){
   const newArray=[]
   array.forEach(element =>newArray.push(element*element));
+  return newArray;
 }
 
 
