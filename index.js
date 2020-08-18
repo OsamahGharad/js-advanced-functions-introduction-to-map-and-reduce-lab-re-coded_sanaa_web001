@@ -41,10 +41,8 @@ function reduceToAllTrue(array){
     if(!element){
       return false
     }
-    else{
-      return true;
-    }
   })
+  return false;
 }
 
 //reduceToAnyTrue
