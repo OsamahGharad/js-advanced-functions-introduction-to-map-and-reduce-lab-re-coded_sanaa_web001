@@ -52,8 +52,6 @@ function reduceToAnyTrue(array){
     if(element){
       return true
     }
-    else{
-      return false;
-    }
   })
+  return false
 }
