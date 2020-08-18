@@ -37,11 +37,11 @@ function reduceToTotal(array,total=0){
 function reduceToAllTrue(array){
 
   array.foreach(element =>{
-    if(element){
-      return true
+    if(!element){
+      return false
     }
     else{
-      return false;
+      return true;
     }
   })
 }
