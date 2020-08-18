@@ -31,7 +31,7 @@ function mapToSquare(array){
 /////my own reduce-like methods //////
 //reduceToTotal return total of a given array elements
 function reduceToTotal(array,total=0){
-   array.reduce(element =>total+=element);
+   array.reduce(element => total+=element);
    return total;
 }
 //reduceToAllTrue returns true if all values true and false if any value is false
