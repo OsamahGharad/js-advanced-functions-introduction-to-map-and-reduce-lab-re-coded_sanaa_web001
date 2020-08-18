@@ -65,5 +65,4 @@ function reduceToAnyTrue(array){
     else{
         return false
     }
-
 }
