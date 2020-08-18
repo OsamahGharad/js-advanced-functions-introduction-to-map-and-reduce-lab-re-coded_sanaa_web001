@@ -50,7 +50,7 @@ function reduceToAllTrue(array){
 function reduceToAnyTrue(array){
 
   array.foreach(element =>{
-    if(!element){
+    if(element){
       return true
     }
     else{
