@@ -53,11 +53,17 @@ function reduceToAllTrue(array){
 
 //reduceToAnyTrue
 function reduceToAnyTrue(array){
-
-  array.foreach(element =>{
-    if(element){
-      return true
+   let newArray = []
+    array.forEach(element => {
+            if(element){
+                newArray.push(element)
+            }
+        });
+    if(newArray.length > 0){
+        return true
     }
-  })
-  return false
+    else{
+        return false
+    }
+
 }
