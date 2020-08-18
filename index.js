@@ -36,13 +36,19 @@ function reduceToTotal(array,total=0){
 }
 //reduceToAllTrue returns true if all values true and false if any value is false
 function reduceToAllTrue(array){
-
-  array.foreach(element =>{
-    if(!element){
-      return false
+   let newArray = []
+    array.forEach(element => {
+            if(!element){
+                newArray.push(element)
+            }
+        });
+    if(newArray.length > 0){
+        return false
     }
-  })
-  return false;
+    else{
+        return true
+    }
+
 }
 
 //reduceToAnyTrue
